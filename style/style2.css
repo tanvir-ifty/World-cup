@@ -4,13 +4,19 @@
 body {
 
     font-family: 'Poppins', sans-serif;
+    background-color: white;
 }
 
 main {
-    width: 1321px;
     height: 646px;
+}
+
+.container,
+.container2 {
+    width: 1321px;
     margin: auto;
 }
+
 
 .container {
     display: flex;
@@ -123,6 +129,7 @@ main {
     width: 100%;
     height: 444px;
     background-color: black;
+    margin-top: 6%;
 }
 
 .goal {
