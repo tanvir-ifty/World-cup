@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap');
 
-/* -------------header-style---------------- */
+/* ---------------------------------
+header-style
+--------------------------- */
 body {
 
     font-family: 'Poppins', sans-serif;
@@ -41,6 +43,18 @@ body {
     background-color: red;
     text-align: center;
     border-radius: 5px;
+
+}
+
+.football-img {
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    transition: transform 1s ease-in-out;
+}
+
+.football-img:hover {
+    transform: rotate(360deg);
 }
 
 .youtube {
@@ -60,7 +74,9 @@ body {
     padding-right: 10px;
 }
 
-/*----------------- football matches ---------------- */
+/*-------------------------------------
+ football matches and news
+ ------------------------- ---------------- */
 .container2 {
     margin-top: 5%;
 }
@@ -141,7 +157,9 @@ button {
     display: none;
 }
 
-/*------------------------- footer section ----------------------- */
+/*------------------------------------------------------- 
+footer section 
+------------------------------------------ */
 .bottom {
     background-color: black;
     margin-top: 5%;
@@ -182,7 +200,9 @@ hr {
     padding: 10px;
 }
 
-/*------------------------ media query for mobile devices-------------------- */
+/*------------------------------------------
+ media query for mobile devices
+ -------------------------------------- */
 @media only screen and (max-width:688px) {
 
     .container {
@@ -268,7 +288,9 @@ hr {
 }
 
 
-/*-----------------------------media query for tablet devices------------------------------- */
+/*---------------------------------------
+media query for tablet devices
+------------------------------------------------- */
 @media only screen and (min-width: 689px) and (max-width: 992px) {
     .container {
         width: 100%;
